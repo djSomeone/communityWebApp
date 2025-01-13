@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    flex-basis: 200px; /* Fixed width for sidebar */
+    flex-shrink: 0;
+  }
+  
+  .post {
+    flex: 1; /* Main content takes the remaining space */
+  }
+  

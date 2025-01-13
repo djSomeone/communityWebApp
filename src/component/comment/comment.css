@@ -1,0 +1,21 @@
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment h5 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .comment span {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .comment p {
+    margin: 5px 0;
+  }
+  
