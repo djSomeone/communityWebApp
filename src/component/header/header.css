@@ -45,12 +45,12 @@
       display: inline;
     }
      h1{
-      display: none;
+      /* display: none; */
       font-size: 1.2rem;
     }
     .header{
-      align-items: center;
-      flex-direction: row;
+      align-items: start;
+      flex-direction: column;
       justify-content: space-between;
       gap: 10px;
       height: auto;
@@ -60,7 +60,7 @@
       width: 260px;
     }
     .google-signin{
-      display: none;
+      display: initial;
     }
   }
   .drawer {
@@ -73,4 +73,11 @@
     font-weight: 500; 
     border-radius: 15px;
     padding: 15px 20px;
+  }
+
+  .header-top{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
   }

@@ -48,10 +48,14 @@ Community
 
   return (
     <header className="header">
-      <h1>Community</h1>
+      <div className='header-top'>
       <div className="menu-icon" onClick={toggleDrawer}>
         <Icon style={{ fontSize: "1.7rem" }} icon="mdi:menu" className="action-icon" />
       </div>
+      <h1>Community</h1>
+      </div>
+      
+     
       <div className="header-right">
         <input type="text" placeholder="Search Community" className="search-bar" />
         <button className="google-signin">Sign in with Google</button>
